@@ -55,7 +55,7 @@ router.post('/register',(req,res)=>{
             }else{
                 res.json('Usuario incorrecto');
             }*/
-            console.log('Se agregó el usuario: '+Nombre+' Contraseña: '+Contra);
+            //console.log('Se agregó el usuario: '+Nombre+' Contraseña: '+Contra);
         }else{
             console.log(err);
         }
